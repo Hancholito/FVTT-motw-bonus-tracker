@@ -1,0 +1,145 @@
+{
+  "MOTWBT": {
+    "Settings": {
+      "hudEnabled": {
+        "name": "Afficher le panneau des bonus",
+        "hint": "Panneau flottant, toujours au premier plan dans Foundry (raccourci : Maj+B)."
+      },
+      "forceDialog": {
+        "name": "Rappel dans la fenêtre de jet",
+        "hint": "Ouvre la fenêtre de jet quand un bonus est engagé ou disponible pour ce jet, avec des cases pour ajuster au dernier moment."
+      },
+      "showBasicMoves": {
+        "name": "Bonus des manœuvres de base",
+        "hint": "Affiche aussi les bonus liés aux manœuvres de base (Évaluer une situation périlleuse, Mettre une raclée…)."
+      },
+      "playersCanAdd": {
+        "name": "Les joueurs peuvent créer des bonus",
+        "hint": "Désactivé : les joueurs ne peuvent qu'engager, dépenser, déclencher leurs manœuvres et donner un bonus à un autre chasseur. Seul le MJ crée et supprime."
+      }
+    },
+    "Keys": {
+      "toggleHud": "Afficher/masquer le panneau des bonus"
+    },
+    "Kind": {
+      "forward": "Forward",
+      "ongoing": "Continu",
+      "constant": "Constant",
+      "pool": "Points à dépenser",
+      "hold": "Réserve",
+      "note": "Note"
+    },
+    "Badge": {
+      "forward": "forward",
+      "ongoing": "continu",
+      "constant": "constant",
+      "pool": "à dépenser",
+      "hold": "réserve",
+      "toggle": "sous condition",
+      "situational": "ce jet",
+      "trigger": "à déclencher",
+      "harm": "dégâts",
+      "armour": "armure",
+      "stat": "carac.",
+      "help": "aide",
+      "note": "note"
+    },
+    "Expires": {
+      "roll": "Prochain jet",
+      "scene": "Fin de scène",
+      "session": "Fin de session",
+      "never": "Permanent"
+    },
+    "Target": {
+      "any": "Tout jet",
+      "stats": "Caractéristiques",
+      "moves": "Manœuvres"
+    },
+    "HUD": {
+      "title": "Bonus",
+      "grant": "Donner un bonus à un autre chasseur",
+      "add": "Ajouter un bonus",
+      "tracker": "Ouvrir le suivi MJ",
+      "collapse": "Replier",
+      "expand": "Déplier",
+      "noActor": "Aucun chasseur à afficher.",
+      "next": "Prochain jet",
+      "targeted": "+ {n} ciblé(s)",
+      "engaged": "Engagé",
+      "available": "Disponible",
+      "reserves": "Réserves et points",
+      "others": "Autres effets (dégâts, armure…)",
+      "empty": "Aucun bonus pour l'instant.",
+      "remove": "Retirer",
+      "toggle": "Activer quand la condition est remplie",
+      "arm": "Engager pour le prochain jet concerné",
+      "take": "Prendre",
+      "spend": "Dépenser",
+      "maxPer": "max {n} par jet"
+    },
+    "Dialog": {
+      "title": "Bonus du suivi",
+      "hint": "Cochés : ajoutés au jet. Décoche ce qui ne s'applique pas, coche ce qui s'applique."
+    },
+    "Chat": {
+      "keeperHold": "le Gardien prend {n} réserve"
+    },
+    "Form": {
+      "ok": "Valider",
+      "add": "Ajouter",
+      "addTitle": "Ajouter un bonus",
+      "allTitle": "Bonus pour toute l'équipe",
+      "grantTitle": "Donner un bonus",
+      "spendTitle": "Dépenser des points",
+      "grant": "Donner",
+      "engage": "Engager",
+      "label": "Intitulé",
+      "labelPh": "ex. Aide de Marc, Lieu sacré…",
+      "kind": "Type",
+      "value": "Valeur",
+      "target": "S'applique à",
+      "qty": "Quantité",
+      "qtyHint": "Pour les points à dépenser et les réserves.",
+      "max": "Maximum par jet",
+      "expires": "Expire",
+      "to": "À",
+      "reason": "Raison",
+      "reasonPh": "ex. Prêter main-forte, Mettre une raclée 10+",
+      "grantHint": "Un forward s'applique au prochain jet du chasseur ; un bonus continu dure jusqu'à la fin de la scène.",
+      "grantDefault": "Donné par {who}",
+      "amount": "Combien",
+      "on": "Sur",
+      "spendHint": "Le bonus s'ajoutera automatiquement au prochain jet correspondant."
+    },
+    "Tracker": {
+      "title": "Suivi des bonus",
+      "none": "Aucun personnage joueur.",
+      "all": "Bonus à toute l'équipe",
+      "endScene": "Fin de scène",
+      "endSession": "Fin de session",
+      "endSessionConfirm": "Retirer tous les bonus qui expirent en fin de scène ou de session, et désengager les bonus « ce jet » ?",
+      "add": "Bonus",
+      "entries": "Bonus attribués",
+      "moves": "Issus des manœuvres",
+      "log": "Historique"
+    },
+    "Log": {
+      "added": "{label} {value} ({kind}) ajouté",
+      "removed": "{label} retiré",
+      "engaged": "{label} {value} engagé",
+      "triggered": "{label} : {value} forward",
+      "rolled": "Jet : {list}",
+      "granted": "{from} donne {label} {value} ({kind})",
+      "holdSpent": "1 réserve dépensée ({label})",
+      "endScene": "Fin de scène",
+      "endSession": "Fin de session"
+    },
+    "Notify": {
+      "noGM": "Aucun MJ connecté : impossible de modifier un autre personnage.",
+      "noOther": "Aucun autre chasseur.",
+      "granted": "{value} donné à {who}.",
+      "endScene": "Fin de scène : bonus de scène retirés.",
+      "endSession": "Fin de session : bonus de scène et de session retirés."
+    }
+  }
+}

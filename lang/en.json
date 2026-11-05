@@ -1,0 +1,145 @@
+{
+  "MOTWBT": {
+    "Settings": {
+      "hudEnabled": {
+        "name": "Show the bonus panel",
+        "hint": "Floating panel, always on top inside Foundry (shortcut: Shift+B)."
+      },
+      "forceDialog": {
+        "name": "Reminder in the roll window",
+        "hint": "Opens the roll window when a bonus is engaged or available for this roll, with checkboxes to adjust at the last moment."
+      },
+      "showBasicMoves": {
+        "name": "Basic move bonuses",
+        "hint": "Also show bonuses tied to basic moves (Read a Bad Situation, Kick Some Ass…)."
+      },
+      "playersCanAdd": {
+        "name": "Players can create bonuses",
+        "hint": "Off: players can only engage, spend, trigger their moves and give a bonus to another hunter. Only the GM creates and deletes."
+      }
+    },
+    "Keys": {
+      "toggleHud": "Show/hide the bonus panel"
+    },
+    "Kind": {
+      "forward": "Forward",
+      "ongoing": "Ongoing",
+      "constant": "Constant",
+      "pool": "Spendable points",
+      "hold": "Hold",
+      "note": "Note"
+    },
+    "Badge": {
+      "forward": "forward",
+      "ongoing": "ongoing",
+      "constant": "constant",
+      "pool": "spendable",
+      "hold": "hold",
+      "toggle": "conditional",
+      "situational": "this roll",
+      "trigger": "trigger",
+      "harm": "harm",
+      "armour": "armour",
+      "stat": "rating",
+      "help": "help",
+      "note": "note"
+    },
+    "Expires": {
+      "roll": "Next roll",
+      "scene": "End of scene",
+      "session": "End of session",
+      "never": "Permanent"
+    },
+    "Target": {
+      "any": "Any roll",
+      "stats": "Ratings",
+      "moves": "Moves"
+    },
+    "HUD": {
+      "title": "Bonuses",
+      "grant": "Give a bonus to another hunter",
+      "add": "Add a bonus",
+      "tracker": "Open the GM tracker",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "noActor": "No hunter to show.",
+      "next": "Next roll",
+      "targeted": "+ {n} targeted",
+      "engaged": "Engaged",
+      "available": "Available",
+      "reserves": "Hold and points",
+      "others": "Other effects (harm, armour…)",
+      "empty": "No bonus yet.",
+      "remove": "Remove",
+      "toggle": "Turn on while the condition holds",
+      "arm": "Engage for the next relevant roll",
+      "take": "Take",
+      "spend": "Spend",
+      "maxPer": "max {n} per roll"
+    },
+    "Dialog": {
+      "title": "Tracked bonuses",
+      "hint": "Checked: added to the roll. Uncheck what doesn't apply, check what does."
+    },
+    "Chat": {
+      "keeperHold": "the Keeper holds {n}"
+    },
+    "Form": {
+      "ok": "OK",
+      "add": "Add",
+      "addTitle": "Add a bonus",
+      "allTitle": "Bonus for the whole team",
+      "grantTitle": "Give a bonus",
+      "spendTitle": "Spend points",
+      "grant": "Give",
+      "engage": "Engage",
+      "label": "Label",
+      "labelPh": "e.g. Help from Mark, Holy ground…",
+      "kind": "Type",
+      "value": "Value",
+      "target": "Applies to",
+      "qty": "Quantity",
+      "qtyHint": "For spendable points and hold.",
+      "max": "Maximum per roll",
+      "expires": "Expires",
+      "to": "To",
+      "reason": "Reason",
+      "reasonPh": "e.g. Help Out, Kick Some Ass 10+",
+      "grantHint": "A forward applies to the hunter's next roll; an ongoing bonus lasts until the end of the scene.",
+      "grantDefault": "Given by {who}",
+      "amount": "How much",
+      "on": "On",
+      "spendHint": "The bonus will be added automatically to the next matching roll."
+    },
+    "Tracker": {
+      "title": "Bonus tracker",
+      "none": "No player characters.",
+      "all": "Bonus to the whole team",
+      "endScene": "End of scene",
+      "endSession": "End of session",
+      "endSessionConfirm": "Remove every bonus that expires at the end of the scene or session, and disengage \"this roll\" bonuses?",
+      "add": "Bonus",
+      "entries": "Assigned bonuses",
+      "moves": "From moves",
+      "log": "History"
+    },
+    "Log": {
+      "added": "{label} {value} ({kind}) added",
+      "removed": "{label} removed",
+      "engaged": "{label} {value} engaged",
+      "triggered": "{label}: {value} forward",
+      "rolled": "Roll: {list}",
+      "granted": "{from} gives {label} {value} ({kind})",
+      "holdSpent": "1 hold spent ({label})",
+      "endScene": "End of scene",
+      "endSession": "End of session"
+    },
+    "Notify": {
+      "noGM": "No GM connected: cannot change another character.",
+      "noOther": "No other hunter.",
+      "granted": "{value} given to {who}.",
+      "endScene": "End of scene: scene bonuses removed.",
+      "endSession": "End of session: scene and session bonuses removed."
+    }
+  }
+}
