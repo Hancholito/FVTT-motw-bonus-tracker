@@ -2,13 +2,15 @@
   "id": "motw-bonus-tracker",
   "title": "Monster of the Week – Suivi des bonus / Bonus Tracker",
   "description": "Suit et applique automatiquement les bonus (+1 forward, +1 continu, constants, réserves, points à dépenser) des chasseurs de Monster of the Week sur le système PbtA. / Tracks and auto-applies Monster of the Week bonuses (forward, ongoing, constant, hold, spendable points) on the PbtA system.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
-    { "name": "Hancholito", "flags": {} }
+    {
+      "name": "Hancholito"
+    }
   ],
   "url": "https://github.com/Hancholito/FVTT-motw-bonus-tracker",
-  "manifest": "https://github.com/Hancholito/FVTT-motw-bonus-tracker/releases/latest/download/module.json",
-  "download": "https://github.com/Hancholito/FVTT-motw-bonus-tracker/releases/download/v0.1.0/motw-bonus-tracker.zip",
+  "manifest": "https://raw.githubusercontent.com/Hancholito/FVTT-motw-bonus-tracker/main/module.json",
+  "download": "https://github.com/Hancholito/FVTT-motw-bonus-tracker/archive/refs/heads/main.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "changelog": "CHANGELOG.md",
@@ -21,20 +23,29 @@
       {
         "id": "pbta",
         "type": "system",
-        "compatibility": { "minimum": "1.2.0" }
+        "compatibility": {
+          "minimum": "1.2.0"
+        }
       }
-    ],
-    "recommends": [
-      { "id": "motw-for-pbta", "type": "module", "reason": "Édition française du module Monster of the Week" },
-      { "id": "motw-for-pbta-en", "type": "module", "reason": "English edition of the Monster of the Week module" },
-      { "id": "lib-wrapper", "type": "module", "reason": "Optionnel : meilleure cohabitation avec d'autres modules qui modifient les jets" }
     ]
   },
-  "esmodules": ["scripts/main.mjs"],
-  "styles": ["styles/bonus-tracker.css"],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/bonus-tracker.css"
+  ],
   "languages": [
-    { "lang": "fr", "name": "Français", "path": "lang/fr.json" },
-    { "lang": "en", "name": "English", "path": "lang/en.json" }
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
   ],
   "socket": true
 }

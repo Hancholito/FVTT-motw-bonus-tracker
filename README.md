@@ -11,7 +11,7 @@ Conçu pour fonctionner avec [FVTT-motw-for-ptba](https://github.com/Hancholito/
 Dans Foundry : *Modules complémentaires → Installer un module*, puis coller l'URL du manifeste :
 
 ```
-https://github.com/Hancholito/FVTT-motw-bonus-tracker/releases/latest/download/module.json
+https://raw.githubusercontent.com/Hancholito/FVTT-motw-bonus-tracker/main/module.json
 ```
 
 Activer **Monster of the Week – Suivi des bonus** dans le monde. `lib-wrapper` est optionnel.
@@ -81,6 +81,6 @@ Foundry VTT module (v13 / v14) for the **PbtA** system. It tracks every *Monster
 - **Recognised moves**: 54 playbook moves (hardcover and *Tome of Mysteries*) mapped to their bonuses, matched by compendium origin (FR and EN editions share IDs) or by name.
 - **Honest lock**: players can engage, spend, trigger and give bonuses to other hunters; only the GM creates or deletes, unless the setting allows it.
 
-Manifest: `https://github.com/Hancholito/FVTT-motw-bonus-tracker/releases/latest/download/module.json`
+Manifest: `https://raw.githubusercontent.com/Hancholito/FVTT-motw-bonus-tracker/main/module.json`
 
 Unofficial, free module. *Monster of the Week* is © Michael Sands / Evil Hat Productions.

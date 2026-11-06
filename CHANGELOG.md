@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.1
+- Manifeste corrigé : installation directe depuis la branche main (plus besoin de release), champs facultatifs retirés.
+
 ## 0.1.0
 - Première version / First release.
 - Panneau des bonus toujours au premier plan, fenêtre MJ, rappel dans la fenêtre de jet.
